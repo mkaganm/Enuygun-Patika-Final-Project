@@ -4,7 +4,7 @@ import Api.PetStore;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
-import org.junit.Assert;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 

@@ -1,0 +1,8 @@
+{
+  "platformName": "Android",
+  "appium:deviceName": "oreo",
+  "appium:automationName": "Bootcamp5",
+  "appium:udid": "emulator-5554",
+  "appium:avd": "Pixel_4_API_27",
+  "appium:app": "C:\\Users\\mkaga\\IdeaProjects\\Bootcamp5\\src\\test\\resources\\apps\\ContactManager.apk"
+}

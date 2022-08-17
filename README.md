@@ -2,5 +2,5 @@
 
 Mustafa Kağan Meriç
 
-## PROJE DÖKÜMANLARI İÇİN AŞAĞIDAKİ LİNKE TIKLAYABİLİRSİNİZ. 
+## PROJE DÖKÜMANLARI REPONUN WIKI BÖLÜMÜNDEDİR .AŞAĞIDAKİ LİNKE TIKLAYABİLİRSİNİZ. 
 ### [Proje Dökümanları](https://github.com/mkaganm/Enuygun-Patika-Test-Automation-Bootcamp-Final-Project/wiki)

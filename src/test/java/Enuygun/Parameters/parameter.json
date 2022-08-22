@@ -1,0 +1,8 @@
+{
+  "origin" : "Ankara",
+  "destination" : "Amsterdam",
+  "departureDay" : 10,
+  "returnDay" : 10,
+  "provider" : "pegasus",
+  "isDirect" : true
+}

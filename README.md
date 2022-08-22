@@ -2,8 +2,7 @@
 
 ## [Appium Projesi](https://github.com/mkaganm/Enuygun-Patika-Final-Project-Appium) - Appium projesi linktedir.
 
-### PROJE DÖKÜMANLARI REPONUN WIKI BÖLÜMÜNDEDİR. AŞAĞIDAKİ LİNKE TIKLAYABİLİRSİNİZ. 
-### [WIKI - Proje Dökümanları](https://github.com/mkaganm/Enuygun-Patika-Test-Automation-Bootcamp-Final-Project/wiki)
+### [WIKI - Proje Dökümanları](https://github.com/mkaganm/Enuygun-Patika-Test-Automation-Bootcamp-Final-Project/wiki) - PROJE DÖKÜMANLARI REPONUN WIKI BÖLÜMÜNDEDİR. AŞAĞIDAKİ LİNKE TIKLAYABİLİRSİNİZ. 
 
 
 ## [Grocery API Test](https://github.com/mkaganm/Enuygun-Patika-Test-Automation-Bootcamp-Final-Project/wiki/Grocery-Store-Tests)

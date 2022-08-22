@@ -1,6 +1,6 @@
 # ENUYGUN-PATİKA FINAL PROJECT
 
-## [Appium Projesi](https://github.com/mkaganm/Enuygun-Patika-Final-Project-Appium) - Appium projesinin reposu linktedir.
+# [Appium Projesi](https://github.com/mkaganm/Enuygun-Patika-Final-Project-Appium) - Appium projesinin reposu linktedir.
 
 ### [WIKI - Proje Dökümanları](https://github.com/mkaganm/Enuygun-Patika-Test-Automation-Bootcamp-Final-Project/wiki) - PROJE DÖKÜMANLARI REPONUN WIKI BÖLÜMÜNDEDİR. GİTMEK İÇİN LİNKE TIKLAYABİLİRSİNİZ. 
 

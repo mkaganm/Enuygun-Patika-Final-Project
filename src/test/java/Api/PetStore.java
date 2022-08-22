@@ -13,9 +13,9 @@ import static io.restassured.RestAssured.given;
 public class PetStore {
 
     Response response;
-
     ObjectMapper mapper;
     public Pet pet;
+
 
     public PetStore(){
         mapper = new ObjectMapper();
@@ -25,9 +25,7 @@ public class PetStore {
     // * this method adding pet to api service
     public Response addRandomPet() throws JsonProcessingException {
 
-
         String jsonStr = mapper.writeValueAsString(pet);    // * converting to json
-
 
         baseURI = "https://petstore.swagger.io/v2";
         response = given()
@@ -53,6 +51,7 @@ public class PetStore {
         return response;
     }
 
+    // * this method find pet by id
     public Response findByPetById(int petId){
 
         String pi = String.valueOf(petId);
@@ -67,6 +66,7 @@ public class PetStore {
         return response;
     }
 
+    // * this method delete pet by id
     public Response delByPetById(int petId){
 
         String pi = String.valueOf(petId);

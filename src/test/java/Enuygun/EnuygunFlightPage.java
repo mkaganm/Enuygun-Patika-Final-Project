@@ -5,9 +5,6 @@ import MKagan.DriverChrome;
 import lombok.Data;
 import org.openqa.selenium.By;
 
-import java.sql.SQLOutput;
-import java.util.Arrays;
-import java.util.List;
 
 @Data
 public class EnuygunFlightPage extends Enuygun{

@@ -28,5 +28,6 @@ Mobile apk testleri için bu sayfaya bakınız.
 - Appium
 - Android studio
 - Faker
+- Rest Assured
 
 ### Author - [M. Kağan Meriç](https://github.com/mkaganm)

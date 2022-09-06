@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.GroceryTest" class="method navigator-link" hash-for-method="addGroceryTest">addGroceryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.PetStoreTest" class="method navigator-link" hash-for-method="addPetTest">addPetTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.GroceryTest" class="method navigator-link" hash-for-method="delGroceryTest">delGroceryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.PetStoreTest" class="method navigator-link" hash-for-method="findByStatusAvailableTest">findByStatusAvailableTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.PetStoreTest" class="method navigator-link" hash-for-method="findByStatusPendingTest">findByStatusPendingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.PetStoreTest" class="method navigator-link" hash-for-method="findByStatusSoldTest">findByStatusSoldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="findFlights">findFlights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.PetStoreTest" class="method navigator-link" hash-for-method="findPetByIdTest">findPetByIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.GroceryTest" class="method navigator-link" hash-for-method="getAllGroceryTest">getAllGroceryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.GroceryTest" class="method navigator-link" hash-for-method="getGroceryByIdTest">getGroceryByIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.GroceryTest" class="method navigator-link" hash-for-method="getGroceryByNameTest">getGroceryByNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="openEnuygun">openEnuygun</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="openFlightPage">openFlightPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.PetStoreTest" class="method navigator-link" hash-for-method="petDeleteTest">petDeleteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="selectDays">selectDays</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="selectDestinationPlace">selectDestinationPlace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="selectFlights">selectFlights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="selectIsDirect">selectIsDirect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="selectOriginFlight">selectOriginFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="selectOriginPlace">selectOriginPlace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="EnuygunTest.EnuygunFlightTest" class="method navigator-link" hash-for-method="selectReturnFlight">selectReturnFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.PetStoreTest" class="method navigator-link" hash-for-method="unsuccessfulFindPetByIdTest">unsuccessfulFindPetByIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTests.PetStoreTest" class="method navigator-link" hash-for-method="unsuccessfulPetDeleteTest">unsuccessfulPetDeleteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ApiTests.PetStoreTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPetTest">
+                  </a> <!-- addPetTest -->
+                  <span class="method-name">addPetTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findByStatusAvailableTest">
+                  </a> <!-- findByStatusAvailableTest -->
+                  <span class="method-name">findByStatusAvailableTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findByStatusPendingTest">
+                  </a> <!-- findByStatusPendingTest -->
+                  <span class="method-name">findByStatusPendingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findByStatusSoldTest">
+                  </a> <!-- findByStatusSoldTest -->
+                  <span class="method-name">findByStatusSoldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPetByIdTest">
+                  </a> <!-- findPetByIdTest -->
+                  <span class="method-name">findPetByIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="petDeleteTest">
+                  </a> <!-- petDeleteTest -->
+                  <span class="method-name">petDeleteTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unsuccessfulFindPetByIdTest">
+                  </a> <!-- unsuccessfulFindPetByIdTest -->
+                  <span class="method-name">unsuccessfulFindPetByIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unsuccessfulPetDeleteTest">
+                  </a> <!-- unsuccessfulPetDeleteTest -->
+                  <span class="method-name">unsuccessfulPetDeleteTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EnuygunTest.EnuygunFlightTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findFlights">
+                  </a> <!-- findFlights -->
+                  <span class="method-name">findFlights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitle">
+                  </a> <!-- getTitle -->
+                  <span class="method-name">getTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openEnuygun">
+                  </a> <!-- openEnuygun -->
+                  <span class="method-name">openEnuygun</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openFlightPage">
+                  </a> <!-- openFlightPage -->
+                  <span class="method-name">openFlightPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectDays">
+                  </a> <!-- selectDays -->
+                  <span class="method-name">selectDays</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectDestinationPlace">
+                  </a> <!-- selectDestinationPlace -->
+                  <span class="method-name">selectDestinationPlace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectFlights">
+                  </a> <!-- selectFlights -->
+                  <span class="method-name">selectFlights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectIsDirect">
+                  </a> <!-- selectIsDirect -->
+                  <span class="method-name">selectIsDirect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectOriginFlight">
+                  </a> <!-- selectOriginFlight -->
+                  <span class="method-name">selectOriginFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectOriginPlace">
+                  </a> <!-- selectOriginPlace -->
+                  <span class="method-name">selectOriginPlace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectReturnFlight">
+                  </a> <!-- selectReturnFlight -->
+                  <span class="method-name">selectReturnFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ApiTests.GroceryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addGroceryTest">
+                  </a> <!-- addGroceryTest -->
+                  <span class="method-name">addGroceryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delGroceryTest">
+                  </a> <!-- delGroceryTest -->
+                  <span class="method-name">delGroceryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllGroceryTest">
+                  </a> <!-- getAllGroceryTest -->
+                  <span class="method-name">getAllGroceryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGroceryByIdTest">
+                  </a> <!-- getGroceryByIdTest -->
+                  <span class="method-name">getGroceryByIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGroceryByNameTest">
+                  </a> <!-- getGroceryByNameTest -->
+                  <span class="method-name">getGroceryByNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ApiTests.GroceryTest&quot;/&gt;
+      &lt;class name=&quot;ApiTests.PetStoreTest&quot;/&gt;
+      &lt;class name=&quot;EnuygunTest.BaseTest&quot;/&gt;
+      &lt;class name=&quot;EnuygunTest.EnuygunFlightTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectOriginFlight')
+data.setCell(0, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(0, 3, 8760);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectFlights')
+data.setCell(1, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(1, 3, 4667);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'findFlights')
+data.setCell(2, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(2, 3, 4240);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getAllGroceryTest')
+data.setCell(3, 2, 'ApiTests.GroceryTest')
+data.setCell(3, 3, 3120);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'openEnuygun')
+data.setCell(4, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(4, 3, 1792);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectReturnFlight')
+data.setCell(5, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(5, 3, 1310);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'openFlightPage')
+data.setCell(6, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(6, 3, 1224);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getGroceryByNameTest')
+data.setCell(7, 2, 'ApiTests.GroceryTest')
+data.setCell(7, 3, 910);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getGroceryByIdTest')
+data.setCell(8, 2, 'ApiTests.GroceryTest')
+data.setCell(8, 3, 900);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addPetTest')
+data.setCell(9, 2, 'ApiTests.PetStoreTest')
+data.setCell(9, 3, 878);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'findByStatusAvailableTest')
+data.setCell(10, 2, 'ApiTests.PetStoreTest')
+data.setCell(10, 3, 777);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'unsuccessfulPetDeleteTest')
+data.setCell(11, 2, 'ApiTests.PetStoreTest')
+data.setCell(11, 3, 759);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'findPetByIdTest')
+data.setCell(12, 2, 'ApiTests.PetStoreTest')
+data.setCell(12, 3, 742);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'findByStatusSoldTest')
+data.setCell(13, 2, 'ApiTests.PetStoreTest')
+data.setCell(13, 3, 736);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'unsuccessfulFindPetByIdTest')
+data.setCell(14, 2, 'ApiTests.PetStoreTest')
+data.setCell(14, 3, 729);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'findByStatusPendingTest')
+data.setCell(15, 2, 'ApiTests.PetStoreTest')
+data.setCell(15, 3, 715);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'petDeleteTest')
+data.setCell(16, 2, 'ApiTests.PetStoreTest')
+data.setCell(16, 3, 703);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addGroceryTest')
+data.setCell(17, 2, 'ApiTests.GroceryTest')
+data.setCell(17, 3, 469);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'delGroceryTest')
+data.setCell(18, 2, 'ApiTests.GroceryTest')
+data.setCell(18, 3, 428);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'selectOriginPlace')
+data.setCell(19, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(19, 3, 386);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'selectDays')
+data.setCell(20, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(20, 3, 363);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'selectDestinationPlace')
+data.setCell(21, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(21, 3, 299);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'selectIsDirect')
+data.setCell(22, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(22, 3, 83);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'getTitle')
+data.setCell(23, 2, 'EnuygunTest.EnuygunFlightTest')
+data.setCell(23, 3, 31);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ApiTests.GroceryTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAllGroceryTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGroceryByNameTest</span>
+                <span class="method-start">3199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addGroceryTest</span>
+                <span class="method-start">4112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGroceryByIdTest</span>
+                <span class="method-start">4582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">delGroceryTest</span>
+                <span class="method-start">5484 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ApiTests.PetStoreTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addPetTest</span>
+                <span class="method-start">5915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findByStatusAvailableTest</span>
+                <span class="method-start">6795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findByStatusPendingTest</span>
+                <span class="method-start">7574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findByStatusSoldTest</span>
+                <span class="method-start">8292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPetByIdTest</span>
+                <span class="method-start">9030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">petDeleteTest</span>
+                <span class="method-start">9774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">unsuccessfulFindPetByIdTest</span>
+                <span class="method-start">10479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">unsuccessfulPetDeleteTest</span>
+                <span class="method-start">11210 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EnuygunTest.EnuygunFlightTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11972 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openEnuygun</span>
+                <span class="method-start">11996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openFlightPage</span>
+                <span class="method-start">13793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectOriginPlace</span>
+                <span class="method-start">15018 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectDestinationPlace</span>
+                <span class="method-start">15406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectIsDirect</span>
+                <span class="method-start">15706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectDays</span>
+                <span class="method-start">15791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findFlights</span>
+                <span class="method-start">16156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectOriginFlight</span>
+                <span class="method-start">20399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectReturnFlight</span>
+                <span class="method-start">29163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectFlights</span>
+                <span class="method-start">30474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTitle</span>
+                <span class="method-start">35142 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

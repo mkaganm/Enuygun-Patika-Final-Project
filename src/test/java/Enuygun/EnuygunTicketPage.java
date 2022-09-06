@@ -12,7 +12,9 @@ public class EnuygunTicketPage extends Enuygun{
 
     private By logo = By.xpath("//*[@class=\"navbar-logo\"]");
 
-    private By selectButton = By.cssSelector("[class='action-select-btn active btn btn-outline-success btn-sm']");
+    private By selectButton = By.xpath("//button[@class=\"action-select-btn active btn btn-outline-success btn-sm\"]");
+    //private By selectButton = By.xpath("//button[@id=\"tooltipTarget_0\"]");
+    //private By selectButton = By.cssSelector("[class='action-select-btn active btn btn-outline-success btn-sm']");
 
     public EnuygunTicketPage(DriverChrome driverChrome, String pr){
         this.provider = pr;
@@ -34,7 +36,7 @@ public class EnuygunTicketPage extends Enuygun{
     }
 
     public void selectFlight(DriverChrome driverChrome){
-        driverChrome.driver.findElements(selectButton).get(0).click();
+        driverChrome.getElements(selectButton).get(0).click();
     }
 
 

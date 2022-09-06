@@ -2,14 +2,12 @@ package EnuygunTest;
 
 import Enuygun.*;
 import Enuygun.Models.Parameter;
-import io.qameta.allure.Description;
-import io.qameta.allure.Link;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.*;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import lombok.extern.slf4j.Slf4j;
+
 
 @Slf4j
 public class EnuygunFlightTest extends BaseTest{
@@ -17,7 +15,6 @@ public class EnuygunFlightTest extends BaseTest{
     Enuygun enuygun;
     EnuygunHomePage homePage;
     EnuygunFlightPage flightPage;
-
     EnuygunTicketPage ticketPage;
     EnuygunPaymentPage paymentPage;
     Parameter parameter;
@@ -37,6 +34,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 1)
+    @Step("open page")
+    @Story("enuygun flight search")
     @Description("open enuygun home page")
     @Link("https://www.enuygun.com/")
     @Severity(SeverityLevel.CRITICAL)
@@ -46,6 +45,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 2)
+    @Step("open flight page")
+    @Story("enuygun flight search")
     @Description("open enuygun flight page")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
@@ -59,6 +60,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 3)
+    @Step("select origin place")
+    @Story("enuygun flight search")
     @Description("set origin place")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
@@ -70,6 +73,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 4)
+    @Step("select destination place")
+    @Story("enuygun flight search")
     @Description("select destination place")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
@@ -81,6 +86,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 5)
+    @Step("select is direct")
+    @Story("enuygun flight search")
     @Description("select is direct")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
@@ -98,6 +105,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 6)
+    @Step("select flight days")
+    @Story("enuygun flight search")
     @Description("select flight days")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
@@ -107,6 +116,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 7)
+    @Step("find flights")
+    @Story("enuygun flight search")
     @Description("find flights")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
@@ -120,6 +131,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 8)
+    @Step("select origin flight")
+    @Story("enuygun flight search")
     @Description("select origin flight")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
@@ -129,6 +142,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 9)
+    @Step("select return flight")
+    @Story("enuygun flight search")
     @Description("select return flight")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
@@ -138,6 +153,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 10)
+    @Step("select flights")
+    @Story("enuygun flight search")
     @Description("select flights")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
@@ -147,6 +164,8 @@ public class EnuygunFlightTest extends BaseTest{
     }
 
     @Test(priority = 11)
+    @Step("check final page")
+    @Story("enuygun flight search")
     @Description("check final page")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
@@ -156,4 +175,5 @@ public class EnuygunFlightTest extends BaseTest{
 
         Assert.assertEquals(title, "E-posta adresiniz");
     }
+
 }

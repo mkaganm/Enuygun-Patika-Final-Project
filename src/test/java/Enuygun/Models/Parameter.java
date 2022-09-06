@@ -17,7 +17,7 @@ public class Parameter {
         this.destination = "Amsterdam";
         this.departureDay = 5;
         this.returnDay = 10;
-        this.provider = "pegasus";
+        this.provider = "sabre";
         this.isDirect = true;
     }
 

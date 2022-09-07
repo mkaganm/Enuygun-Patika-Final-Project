@@ -1,3 +1,9 @@
 *.html linguist-detectable=false
 
-*.javascript linguist-detectable=false
+*.JavaScript linguist-detectable=false
+
+*.css linguist-detectable=false
+
+*.Shell linguist-detectable=false
+
+*.Batchfile linguist-detectable=false

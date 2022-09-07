@@ -1,9 +1,0 @@
-*.html linguist-detectable=false
-
-*.javascript linguist-detectable=false
-
-*.css linguist-detectable=false
-
-*.shell linguist-detectable=false
-
-*.batchfile linguist-detectable=false

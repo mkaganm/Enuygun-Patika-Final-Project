@@ -16,8 +16,8 @@ public class Parameter {
         this.origin = "İstanbul";
         this.destination = "Amsterdam";
         this.departureDay = 5;
-        this.returnDay = 10;
-        this.provider = "sabre";
+        this.returnDay = 5;
+        this.provider = "galileo-sabre";
         this.isDirect = true;
     }
 

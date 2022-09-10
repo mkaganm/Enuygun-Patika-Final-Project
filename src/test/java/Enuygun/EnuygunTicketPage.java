@@ -35,7 +35,8 @@ public class EnuygunTicketPage extends Enuygun{
         driverChrome.driver.findElements(returnFlight).get(0).click();
     }
 
-    public void selectFlight(DriverChrome driverChrome){
+    public void selectFlight(DriverChrome driverChrome) throws InterruptedException {
+        Thread.sleep(1000);
         driverChrome.getElements(selectButton).get(0).click();
     }
 

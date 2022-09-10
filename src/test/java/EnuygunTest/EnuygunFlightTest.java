@@ -158,7 +158,7 @@ public class EnuygunFlightTest extends BaseTest{
     @Description("select flights")
     @Link("https://www.enuygun.com/ucak-bileti/")
     @Severity(SeverityLevel.CRITICAL)
-    public void selectFlights(){
+    public void selectFlights() throws InterruptedException {
         ticketPage.selectFlight(driverChrome);
         log.info("TEST : click find button");
     }
